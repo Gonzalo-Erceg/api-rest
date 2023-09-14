@@ -1,0 +1,14 @@
+{
+    "cSpell.enableFiletypes": [
+        "markdown",
+        "javascript"
+    ],
+    "cSpell.language": "es,en",
+    "cSpell.autoFormatConfigFile": true,
+    "cSpell.showAutocompleteSuggestions": true,
+    "cSpell.words": [
+        "apirest",
+        "picocolors",
+        "pokemon"
+    ]
+}
