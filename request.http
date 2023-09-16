@@ -1,15 +1,15 @@
-GET http://localhost:3000/movies
+GET http://localhost:3001/movies
 
 
 ### recuperar una pelicula
-GET http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+GET http://localhost:3001/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 
 ### recuperar peliculas por genero
-GET http://localhost:3000/movies?genre=Sci-Fi
+GET http://localhost:3001/movies?genre=Sci-Fi
 
 
 ### crear una nueva pelicula
-POST http://localhost:3000/movies
+POST http://localhost:3001/movies
 Content-Type: application/json
 
 {
@@ -22,7 +22,7 @@ Content-Type: application/json
 
 
 ### actualizar una pelicula 
-PATCH http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+PATCH http://localhost:3001/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 Content-Type: application/json
 
 {
@@ -30,5 +30,17 @@ Content-Type: application/json
 }
 
 ### borrara recurso
-DELETE http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+DELETE http://localhost:3001/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 Content-Type: application/json
+
+###
+GET https://api-rest-8vkw-dev.fl0.io/movies/
+Content-Type: application/json
+
+{
+    "title":"el miles morales 2",
+    "year": 2023,
+    "director":"no me acuerdo",
+    "genre":["Action"],
+    "ratio":10  
+}

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "**Node.JS** es un entorno de ejecución de javascript, esto permite ejecutar javascript en multitud de plataformas sin ser necesariamente un navegador. Es de código abierto, asíncrono, con entrada y salida de datos, su arquitectura esta orientada a eventos y ademas ejecuta [v8](https://es.wikipedia.org/wiki/V8_(intérprete_de_JavaScript)) (Es el motor de javascript que ejecuta Chrome).",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --watch app.js",
